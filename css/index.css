@@ -1,10 +1,74 @@
-#my-herder{
-    background-color: orange;
+
+#my-header{
+    margin:0;
+    padding:0;
+    background-color:orange
 }
-#my-herder h1{
-    color:orangered
+#my-header h1{
+    
+    letter-spacing: 3px;
+    color:wheat;
+    margin: 0;
+    padding:10px;
+    padding-left:200px;
 }
 
 #my-nav{
-    background-image: url();
+    background-image: url(/winterEatWatermelon/images/nav.jpg);
+    background-position: right bottom, left top;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    padding: 15px;
+    padding-bottom: 200px;
+    margin:0;
+}
+#my-nav ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+#my-nav li{
+    float: left;
+    color:#333;
+    font-size: 18px;
+    margin: auto;
+    word-spacing: 20px;
+}
+
+a
+{   
+    display:block;
+    width:80px;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+#my-container{
+    border:black solid 1px;
+    position: relative;
+    margin:20 0 ;
+    padding-left:20px;
+}
+
+#my-test{
+    
+    border:black solid 1px;
+    position: relative;
+    margin:20 0; 
+    padding-left:20px;
+    padding-top:20px;
+}
+
+#my-footer{
+    padding-top: 500px;
+    padding-bottom: 500px;
+    position: relative;
+
 }
